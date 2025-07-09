@@ -1,0 +1,7 @@
+﻿  Yılan oyunu.cpp
+C:\Users\KADRİ KURHAN\source\repos\Yılan oyunu\Yılan oyunu\Yılan oyunu.cpp(16,24): warning C4838: 'int ile 'SHORT arasında dönüştürme bir daraltma dönüştürmesi gerektiriyor
+C:\Users\KADRİ KURHAN\source\repos\Yılan oyunu\Yılan oyunu\Yılan oyunu.cpp(16,30): warning C4838: 'int ile 'SHORT arasında dönüştürme bir daraltma dönüştürmesi gerektiriyor
+C:\Users\KADRİ KURHAN\source\repos\Yılan oyunu\Yılan oyunu\Yılan oyunu.cpp(67,11): warning C4309: 'başlatılıyor': sabit değer kesildi
+C:\Users\KADRİ KURHAN\source\repos\Yılan oyunu\Yılan oyunu\Yılan oyunu.cpp(190,18): warning C4309: '=': sabit değer kesildi
+C:\Users\KADRİ KURHAN\source\repos\Yılan oyunu\Yılan oyunu\Yılan oyunu.cpp(215,27): warning C4101: 'durdur': yerel değişken başvurusu kaldırıldı
+  Yılan oyunu.vcxproj -> C:\Users\KADRİ KURHAN\source\repos\Yılan oyunu\x64\Debug\Yılan oyunu.exe

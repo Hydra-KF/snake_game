@@ -1,0 +1,36 @@
+	# 🐍 C++ Konsol Yılan Oyunu
+
+Bu proje, **C++** programlama dili kullanılarak yazılmış, klasik yılan oyununun bir konsol sürümüdür.  
+Oyunda ASCII karakterlerle görsel arayüz sağlanmış, hareketler `gotoxy` benzeri bir sistemle çizilmiştir.
+
+## 🎮 Özellikler
+
+- Gerçek zamanlı hareket sistemi (klavye girişi anında tepki verir)
+- Yılanın kendi bedenine çarpmasıyla oyun sona erer
+- Kenarlardan geçiş (tünel efekti)
+- Yüksek skor kaydı (`Yılanoyunu.txt` dosyasına kaydedilir)
+- ASCII sanatıyla yapılmış grafiksel detaylar
+- Duraklatma özelliği (`P` tuşu)
+
+## ⌨️ Kontroller
+
+| Tuş | İşlev       |
+|-----|-------------|
+| W   | Yukarı      |
+| A   | Sol         |
+| S   | Aşağı       |
+| D   | Sağ         |
+| P   | Oyunu duraklat |
+📝 Gereksinimler
+Windows işletim sistemi
+windows.h, conio.h gibi Windows’a özgü kütüphaneler
+C++ derleyici (g++, clang++, vs.)
+
+🏁 Oyun Başlangıcı
+Oyun başladığında yılanın hareketi için yön tuşlarını (WASD) kullanın.
+Yılanoyunu.txt dosyasında yüksek skor saklanır.
+Yılan kendine çarptığında oyun biter.
+Yeni yemler rastgele ortaya çıkar.
+
+Not: Oyun sadece Windows üzerinde çalışır, çünkü windows.h ve SetConsoleCursorPosition gibi platforma özel API'ler kullanılmıştır.
+
